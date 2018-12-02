@@ -1,0 +1,470 @@
+body{
+	background: #04C3F4;
+}
+
+.col1,.col2,.col3,.col4,.col5,.col6{
+	border-right: 1px dashed #a2eafd;
+	transition: 0.5s;
+}
+
+.colm{
+	width: 170px;
+	height: 42px;
+	/*background: red;*/
+	position: relative;
+	top: 26px;
+	left: 5px;
+}
+	.col2:hover{
+		background: url(../images/pcards.jpg)center center;
+		background-size: cover;
+		box-shadow:inset 0 0 20px #000000;
+		cursor: pointer;
+	}	
+	.col3:hover{
+		background: url(../images/loans.jpg) center center;
+		background-size: cover;
+		box-shadow:inset 0 0 20px #000000;
+		cursor: pointer;
+	}
+	.col4:hover{
+		background: url(../images/inst.jpg) center center;
+		background-size: cover;
+		box-shadow:inset 0 0 20px #000000;
+		cursor: pointer;
+	}
+	.col5:hover{
+		background: url(../images/online.jpg) center center;
+		background-size: cover;
+		box-shadow:inset 0 0 20px #000000;
+		cursor: pointer;
+	}
+	.col6:hover{
+		background: url(../images/transfer.jpg) center center;
+		background-size: cover;
+		box-shadow:inset 0 0 20px #000000;
+		cursor: pointer;
+	}
+
+a{
+	font-size: 12px;
+	text-align: left;
+	line-height: 20px;
+}
+
+img{
+	margin-right: 12px;
+}
+
+a, img{
+	color: white;
+	text-decoration: underline;
+}
+		
+		a:hover{
+			color: white;
+			text-decoration: none;
+		}
+
+.mainPage{
+	position: absolute;
+	top:23px;
+	left: 32px;
+	cursor: pointer;
+}
+
+.colm2{
+	width: 170px;
+	height: 60px;
+	/*background: red;*/
+	position: absolute;
+	margin-left: -17px;
+	top: 20px;
+	left: 32px;
+}
+
+.img{
+	margin-left: -10px;
+}
+
+.colm3{
+	width: 171px;
+	height: 55px;
+	/*background: red;*/
+	position: absolute;
+	top: 23px;
+	left: 10px;
+}
+
+.all{
+	width: 170px;
+	height: 53px;
+	/*background: red;*/
+	position: absolute;
+	top: 32px;
+	left: 23px;
+}
+		
+.img2{
+	background: url(../images/img_icon/home-all.png);
+	width: 151px;
+	height: 35px;
+	cursor: pointer;
+}
+		
+ ul, li{
+	list-style: none;
+	display: inline;
+	line-height: 3;
+	word-spacing: 5px;
+}
+	
+span{
+	color: white;
+	font-size: 13px;
+	box-sizing: border-box;
+	padding-left: 16px;
+	line-height: 2.8;
+}
+
+.on, .off_ru, .off_en{
+	font-size: 10px;
+}
+
+.menu_c{
+	width: 217px;
+	height: 217px;
+	background: url(../images/img_icon/c_main.png) no-repeat;
+	position: absolute;
+	top: 28.5%;
+	left: -4%;
+	/*top: 220px;
+	left: -8px;*/
+}
+	/*.menu_c:hover{
+		background: url(../images/img_icon/c_main.png) 100% 100%;
+		background: url(../images/img_icon/main_icons.png) no-repeat 50px -100px;
+		background-size: cover;
+	}
+*/
+.main_icons{
+	width: 100px;
+	height: 93px;
+	background: url(../images/img_icon/main_icons.png)no-repeat 0 4px;
+	margin: 35px auto 0 auto;
+	display: block;
+}
+
+
+p{
+	width: 120px;
+	font-size: 1.3em;
+	margin: 11px auto;
+	color: #06C5F4;
+	text-align: center;
+}
+
+.p1{
+	width: 120px;
+	font-size: 1.3em;
+	margin: -2px auto;
+	color: #06C5F4;
+	text-align: center;
+}
+
+.main_icons2{
+	width: 100px;
+	height: 93px;
+	background: url(../images/img_icon/main_icons.png) no-repeat -200px 0;
+	margin: 35px auto 0 auto;
+	display: block;
+}
+
+.main_icons3{
+	width: 100px;
+	height: 93px;
+	background: url(../images/img_icon/main_icons.png) no-repeat -400px 0;
+	margin: 35px auto 0 auto;
+	display: block;
+}
+
+.main_icons4{
+	width: 100px;
+	height: 93px;
+	background: url(../images/img_icon/main_icons.png) no-repeat -596px 0;
+	margin: 35px auto 0 auto;
+	display: block;
+}
+
+.main_icons5{
+	width: 100px;
+	height: 93px;
+	background: url(../images/img_icon/main_icons.png) no-repeat -798px 0;
+	margin: 35px auto 0 auto;
+	display: block;
+}
+
+		/*ANIMATION*/
+
+.box{
+	width: 834px;
+	height: 153px;
+	/*background: red;*/
+	position: relative;
+	left: 258px;
+	top: 482px;	
+	cursor: pointer;
+}
+
+			.slider1{
+				width: 166px;
+			    /*background: black;*/
+			    height: 153px;
+			    display: inline-block;
+			    position: absolute;
+			    left: 0px;
+				animation-name: qara;
+				animation-duration: 20s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+
+			.slider2{
+				width: 166px;
+			    /*background: orange;*/
+			    height: 153px;
+			    display: inline-block;
+			    position: absolute;
+			    left: 166px;
+			    animation-name: narinci;
+				animation-duration: 20s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+
+			.slider3{
+				width: 166px;
+			    /*background: aqua;*/
+			    height: 153px;
+			    display: inline-block;
+			    position: absolute;
+			    left: 332px;
+			    animation-name: goy;
+				animation-duration: 20s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+
+			.slider4{
+				width: 166px;
+			    /*background: purple;*/
+			    height: 153px;
+			    display: inline-block;
+			    position: absolute;
+			    right: 170px;
+			    animation-name:benovse ;
+				animation-duration: 20s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+
+			.slider5{
+				width: 170px;
+			    /*background: yellow;*/
+			    height: 153px;
+			    display: inline-block;
+			    position: absolute;
+			    right: 0px;
+			    animation-name: sari;
+				animation-duration: 20s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+
+			@keyframes qara{
+	0%{
+		background: url(../images/bob-20k-180.jpg);
+	}
+	25%{
+		background: url(../images/bob-20k.jpg);
+	}
+	50%{
+		background: url(../images/korpo.jpg);
+	}
+	75%{
+		background: url(../images/mumkundur.jpg);
+	}
+	100%{
+		background: url(../images/korpo.jpg);
+	}
+
+}
+
+@keyframes narinci{
+	0%{background: url(../images/bob-20k.jpg);
+	}
+	25%{background: url(../images/korpo.jpg);
+	}
+	50%{background: url(../images/mumkundur.jpg);
+	}
+	75%{background: url(../images/tort.png);
+	}
+	100%{background: url(../images/tort.png);
+	}
+}
+
+@keyframes goy{
+	0%{background: url(../images/korpo.jpg);
+	}
+	25%{background: url(../images/mumkundur.jpg);
+	}
+	50%{background: url(../images/tort.png);
+	}
+	75%{background: url(../images/bob-20k-180.jpg);
+	}
+	100%{background: url(../images/mumkundur.jpg);
+	}
+}
+
+@keyframes benovse{
+	0%{background: url(../images/mumkundur.jpg);
+	}
+	25%{background: url(../images/tort.png);
+	}
+	50%{background: url(../images/bob-20k-180.jpg);
+	}
+	75%{background: url(../images/bob-20k.jpg);
+	}
+	100%{background: url(../images/bob-20k-180.jpg);
+	}
+}
+
+@keyframes sari{
+	0%{background: url(../images/tort.png);
+	}
+	25%{background: url(../images/bob-20k-180.jpg);
+	}
+	50%{background: url(../images/bob-20k.jpg);
+	}
+	75%{background: url(../images/korpo.jpg);
+	}
+	100%{background: url(../images/bob-20k.jpg);
+	}
+}
+
+					/*ANIMATION FINIS*/
+
+
+
+.a12{
+	position: absolute;
+	top: 40px;
+	left: -40px;
+	z-index: 1;
+}
+
+.a11{
+	position: absolute;
+	top: 40px;
+	right: -55px;
+	z-index: 1;
+}
+
+.footer{
+	width: 1000px;
+	height: 40px;
+	/*background: red;*/
+	position: relative;
+	bottom: -20px;
+	left: 171px;
+}
+
+.soz{
+	width: 170px;
+	height: 40px;
+	/*background: black;*/
+	display: inline-block;
+	float: left;
+}
+
+.hd, .soz{
+	color: white;
+	font-size: 11px;
+	line-height: 16px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.adif{
+	width: 72px;
+	height: 40px;
+	/*background: black;*/
+	display: inline-block;
+	margin-left: 50px;
+	box-sizing: border-box;
+	padding: 18px 0 0 5px;
+	float: left;
+}
+
+.map{
+	width: 202px;
+	height: 40px;
+	display: inline-block;
+	/*background: black;*/
+	float: left;
+	margin-left: 20px;
+}
+
+.maP{
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+
+.hD{
+	color: white;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.sosial{
+	width: 398px;
+	height: 40px;
+	/*background: black;*/
+	display: inline-block;
+	float: left;
+	margin-left: 88px;
+	box-sizing: border-box;
+	padding-top: 14px;
+}
+
+.fb, .tw, .yt, .in, .im{
+	cursor: pointer;
+	float: left;
+}
+
+
+
+
+
+/*.foot{
+	margin: 656px auto;
+    position: relative;
+    width: 1000px;
+    font-size: 11px;
+    line-height: 16px;
+    background: red;
+}
+
+
+.copy{
+	color: white;
+	padding: 20px 0 0 23px;
+    width: 177px;
+    height: 57px;
+}
+
+
+.hd2{
+	position: absolute;
+}*/
